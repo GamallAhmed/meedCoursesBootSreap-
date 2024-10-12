@@ -1,0 +1,184 @@
+:root{
+    --mainColor:rgb(51, 106, 234);
+    --bgColor:rgb(229, 229, 229);
+    --textlight:white;
+}
+.logo{
+    color: var(--mainColor);
+     font-family: "Rowdies", sans-serif;
+     font-size: 30px;
+}
+.logo:hover{
+    color: var(--mainColor);
+}
+
+header{
+    background-image: url(../images/bluebg.jpg);
+    background-size: cover;
+    height: 89.8vh;
+    color: var(--textlight);
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+    font-family: "Rowdies", sans-serif; 
+}
+.header-content{
+    font-size: 30px;
+    font-family: "Philosopher", sans-serif;
+}
+.header-content h1{
+        font-size:60px;
+        font-weight: 700;
+        font-family: "Rowdies", sans-serif; 
+        padding: 10px;
+
+}
+.main-title{
+    text-align: center;
+}
+.main-title h2 {
+    position: relative;
+    font-size: 24px; 
+    display: inline-block;
+    text-align: center;
+    line-height: 1.5; 
+    
+}
+
+.main-title h2::before,
+.main-title h2::after {
+    content: "★"; 
+    color: var(--mainColor); 
+    font-size: 50px; 
+    margin: 0 10px; 
+    vertical-align: middle; 
+    line-height: 1; 
+}
+
+.main-title h2::before {
+    margin-right: 15px; 
+}
+
+.main-title h2::after {
+    margin-left: 15px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+}
+
+.card-content {
+    padding: 15px;
+    text-align: center;
+}
+
+.course-title {
+    font-size: 1.5rem;
+    color: var(--mainColor);
+    margin-bottom: 10px;
+}
+
+.course-description {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.rating {
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+    color: #ffc107;
+}
+
+.btn {
+    background-color: var(--mainColor);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.instructor-name {
+    font-size: 1.5rem;
+    color: var(--mainColor);
+    margin-bottom: 10px;
+}
+
+.instructor-profession {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.instructor-experience {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.instructor-bio {
+    font-size: 0.9rem;
+    color: #777;
+    margin-bottom: 15px;
+}
+
+.rating {
+    font-size: 1.2rem;
+    color: #ffc107;
+    margin-bottom: 15px;
+}
+.footer {
+    background-color: #f8f9fa;
+    border-top: 1px solid #e9ecef;
+}
+
+.footer p {
+    color: #333;
+}
+
+.footer-link {
+    color: var(--mainColor);
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+
+.social-links {
+    margin-top: 10px;
+}
+
+.social-icon {
+    color: var(--mainColor);
+    margin: 0 10px;
+    font-size: 1.5rem; /* Adjust icon size */
+    text-decoration: none;
+}
+
+.social-icon:hover {
+    color: #0056b3; /* Change color on hover */
+}
